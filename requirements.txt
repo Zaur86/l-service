@@ -1,0 +1,8 @@
+ipython
+fastapi
+uvicorn
+elasticsearch
+sqlalchemy
+pydantic
+requests-aws4auth
+logging
