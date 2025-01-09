@@ -1,8 +1,11 @@
 ipython
 fastapi
 uvicorn
-elasticsearch
+elasticsearch==7.13.4
 sqlalchemy
 pydantic
 requests-aws4auth
 logging
+python-dotenv
+boto3
+awscli
