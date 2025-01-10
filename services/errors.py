@@ -41,3 +41,8 @@ class TimezoneMismatchError(Exception):
 class InvalidParameterValueError(Exception):
     """Raised when a parameter has an invalid value."""
     pass
+
+
+class NestedKeyError(Exception):
+    """Exception raised when the specified nested key path does not exist."""
+    pass

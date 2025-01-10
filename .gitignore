@@ -4,3 +4,7 @@ venv/
 play.py
 .idea/
 comments.txt
+*.DS_Store
+tmp/data_exports/*
+tmp/tmp/data/*
+tmp/tmp/scripts/*

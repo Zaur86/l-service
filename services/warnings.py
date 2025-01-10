@@ -8,3 +8,9 @@ class ExcessiveProcessesWarning(UserWarning):
 class TimezoneWarning(Warning):
 	"""Warning raised when the provided time has a different timezone, but the process continues."""
 	pass
+
+
+class JsonLengthWarning(UserWarning):
+	"""Warning for excessively long JSON strings."""
+	def __init__(self, length: int, max_length: int):
+		super().__init__(f"JSON string length {length} exceeds the maximum allowed length of {max_length} characters.")
