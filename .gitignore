@@ -6,5 +6,8 @@ play.py
 comments.txt
 *.DS_Store
 tmp/data_exports/*
-tmp/tmp/data/*
+!tmp/data_exports/.gitkeep
 tmp/tmp/scripts/*
+!tmp/tmp/scripts/.gitkeep
+tmp/tmp/data/*
+!tmp/tmp/data/.gitkeep
