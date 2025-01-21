@@ -9,3 +9,9 @@ logging
 python-dotenv
 boto3
 awscli
+pytest
+pytest-asyncio
+httpx
+pyyaml
+pytest-mock
+botocore

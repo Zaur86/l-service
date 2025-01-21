@@ -11,3 +11,8 @@ tmp/tmp/scripts/*
 !tmp/tmp/scripts/.gitkeep
 tmp/tmp/data/*
 !tmp/tmp/data/.gitkeep
+tmp/tmp/interactive_history/*
+!tmp/tmp/interactive_history/.gitkeep
+tests/cases/**/*.yaml
+.pytest_cache/
+notes.txt
